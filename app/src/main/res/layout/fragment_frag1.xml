@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Frag1">
+
+
+    <Button
+        android:id="@+id/btn_fetch_frag"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#689F38"
+        android:text="@string/fetchurl"
+        app:icon="@android:drawable/stat_sys_download"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_fetchvolley_frag"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#FFA000"
+        android:text="@string/fetchurl4"
+        app:icon="@android:drawable/stat_sys_download"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_fetchexec_frag"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/fetchurl5"
+        app:icon="@android:drawable/stat_sys_download"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_fetchthread_frag"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="#F44336"
+        android:text="@string/fetchurl6"
+        app:icon="@android:drawable/stat_sys_download"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/ed_url_frag"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/fetchurl3"
+        android:inputType="textUri"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/textView4_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/url" />
+
+    <EditText
+        android:id="@+id/ed_urlcontent_frag"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="316dp"
+        android:autofillHints=""
+        android:background="#EDE9E9"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="start|top"
+        android:hint="@string/waiturl"
+        android:inputType="textMultiLine"
+        android:textColorHint="#616161"
+        android:textSize="12sp" />
+
+
+</FrameLayout>

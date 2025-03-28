@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnotherActivity">
+
+    <ImageButton
+        android:id="@+id/btn_email"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="257dp"
+        android:layout_marginTop="264dp"
+        android:backgroundTint="#C2185B"
+        android:contentDescription="@string/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="310dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/cap_citadel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/acropolis" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="264dp"
+        android:backgroundTint="#ECD0D0"
+        android:text="@string/cap_back"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        app:icon="@drawable/goback"
+        app:iconTint="#931F1F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
